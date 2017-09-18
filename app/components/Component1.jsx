@@ -1,6 +1,7 @@
 //Component1.jsx
 import React from 'react';
 
+
 class Component1 extends React.Component {
     render() {
     	var m = 100;
@@ -17,7 +18,6 @@ class Component1 extends React.Component {
             	})}
             </ul>
             </div>
-
         )
 
        

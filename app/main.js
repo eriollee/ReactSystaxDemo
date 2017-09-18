@@ -1,10 +1,10 @@
 //main.js
 import React from 'react';
 import ReactDom from 'react-dom';
-import Component1 from './components/Component1.jsx';
+import Todo from './container/Todo/index.jsx'
 
 ReactDom.render(
-    <Component1 />,
+    <Todo/>,
     document.getElementById('content')
 );
 
